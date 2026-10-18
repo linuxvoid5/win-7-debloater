@@ -1,0 +1,6 @@
+# The batch launcher MUST keep CRLF line endings, otherwise cmd.exe can mis-parse labels.
+* text=auto
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ico binary
+*.png binary
