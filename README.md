@@ -54,7 +54,7 @@ The tool shows a warning in the log if it detects a different Windows version.
 
 ## How it works
 
-`Win7-Debloat-GUI.bat` is a single file with two parts:
+`Win7-Debloat.bat` is a single file with two parts:
 
 1. A tiny batch header that asks for elevation and starts PowerShell hidden.
 2. A PowerShell + Windows Forms program below the `#PS-BEGIN` marker, which the batch header reads from
